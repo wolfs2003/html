@@ -153,7 +153,18 @@ body {
 
     color: #787878;
 }
-
+.services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+}
 .articles-section {
     padding-top: 90px;
     padding-bottom: 160px;
